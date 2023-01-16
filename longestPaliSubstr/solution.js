@@ -1,4 +1,8 @@
 
+    /**
+     * @param {*} str string that will be checked for palindrome
+     * @returns longest palindrome
+     */
     const getLongestPalindrome = (str) => {
       // return if string is empty
       if (str.trim().length == 0 ){

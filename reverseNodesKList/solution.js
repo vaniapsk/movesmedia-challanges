@@ -1,4 +1,9 @@
 
+/**
+ * @param {*} headList head of a linked list
+ * @param {*} k number of times the list will be reversed
+ * @returns the reversed linked list
+ */
 const reverseKGroup = (headList, k) => {
     if (!headList || k < 2) {
       return headList;
@@ -27,6 +32,5 @@ const reverseKGroup = (headList, k) => {
     
     return finalLinkedList;
   };
-  
-      console.log(reverseKGroup([1,2,3,4,5], 2))
+
   
